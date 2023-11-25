@@ -1,7 +1,11 @@
 import styled from "styled-components";
-import backgroundImg from '../../Images/Juliana.png';
+import backgroundImg from '../../Images/background.png';
+import backgroundFisioterapiaGeral from '../../Images/FisioTerapiaGeral.png';
+import backgroundReabilitaçãoMuscular from '../../Images/ReabilitaçãoMuscular.png';
+import backgroundTratamentoDeLesões from '../../Images/TratamentoDeLesões.png';
+import backgroundPilates from '../../Images/Pilates.png';
 
-export const Container = styled.div`
+export const ContainerFirst = styled.div`
   position: relative;
   background: url(${backgroundImg}) no-repeat center center;
   background-size: cover;
@@ -45,7 +49,7 @@ export const Container = styled.div`
   font-size: 18px;
   padding: 10px 20px;
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-top: 20px;
   cursor: pointer;
   background: transparent;
@@ -58,4 +62,53 @@ export const Container = styled.div`
   button:hover {
     background: lightgray;
   }
+`;
+
+export const ContainerSecond = styled.div`
+  position: relative;
+  background: url(${backgroundFisioterapiaGeral}) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+`;
+export const ContainerThree = styled.div`
+position: relative;
+  background: url(${backgroundReabilitaçãoMuscular}) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+`;
+export const ContainerFor = styled.div`
+position: relative;
+  background: url(${backgroundTratamentoDeLesões}) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+`;
+export const ContainerFive = styled.div`
+position: relative;
+  background: url(${backgroundPilates}) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 `;
