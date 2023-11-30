@@ -16,7 +16,6 @@ export const ContainerFirst = styled.div`
   align-items: center;
   height: 100vh;
   text-align: center;
-
   h2, p {
     position: relative; /* Adicione isso para garantir que o z-index funcione */
     z-index: 1;
@@ -102,6 +101,25 @@ export const ContainerSecond = styled.div`
     background: rgba(0, 0, 0, 0.3);
     z-index: 0;
   }
+
+  button {
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.3s ease; /* Adiciona uma transição suave */
+  z-index: 2; /* Garante que o botão esteja em uma camada superior */
+}
+
+
+  /* Quando o botão for hover, muda o background para branco */
+  button:hover {
+    background: lightgray;
+  }
 `;
 export const ContainerThree = styled.div`
 position: relative;
@@ -141,6 +159,25 @@ position: relative;
     background: rgba(0, 0, 0, 0.3);
     z-index: 0;
   }
+
+  button {
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.3s ease; /* Adiciona uma transição suave */
+  z-index: 2; /* Garante que o botão esteja em uma camada superior */
+}
+
+
+  /* Quando o botão for hover, muda o background para branco */
+  button:hover {
+    background: lightgray;
+  }
 `;
 export const ContainerFor = styled.div`
 position: relative;
@@ -179,5 +216,24 @@ position: relative;
     height: 100%;
     background: rgba(0, 0, 0, 0.3);
     z-index: 0;
+  }
+
+  button {
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: transparent;
+  transition: background 0.3s ease; /* Adiciona uma transição suave */
+  z-index: 2; /* Garante que o botão esteja em uma camada superior */
+}
+
+
+  /* Quando o botão for hover, muda o background para branco */
+  button:hover {
+    background: lightgray;
   }
 `;
