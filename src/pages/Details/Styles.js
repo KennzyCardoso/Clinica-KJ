@@ -2,7 +2,6 @@ import styled from "styled-components";
 import backgroundImg from '../../Images/background.png';
 import backgroundFisioterapiaGeral from '../../Images/FisioTerapiaGeral.png';
 import backgroundReabilitaçãoMuscular from '../../Images/ReabilitaçãoMuscular.png';
-import backgroundTratamentoDeLesões from '../../Images/TratamentoDeLesões.png';
 import backgroundPilates from '../../Images/Pilates.png';
 
 export const ContainerFirst = styled.div`
@@ -24,12 +23,12 @@ export const ContainerFirst = styled.div`
 
   h2 {
     line-height: 2;
-    font-size: 50px;
+    font-size: 2rem;
   }
 
   p {
     line-height: 2;
-    font-size: 25px;
+    font-size: 1.5rem;
   }
 
   &:before {
@@ -54,7 +53,21 @@ export const ContainerFirst = styled.div`
   background: transparent;
   transition: background 0.3s ease; /* Adiciona uma transição suave */
   z-index: 2; /* Garante que o botão esteja em uma camada superior */
+  @media (max-width: 768px) {
+      font-size: 14px;
+      margin-top: 10px;
+    }
 }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
 
 
   /* Quando o botão for hover, muda o background para branco */
@@ -83,12 +96,22 @@ export const ContainerSecond = styled.div`
 
   h2 {
     line-height: 2;
-    font-size: 50px;
+    font-size: 2rem;
   }
 
   p {
     line-height: 2;
-    font-size: 25px;
+    font-size: 1.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 
   &:before {
@@ -141,12 +164,22 @@ position: relative;
 
   h2 {
     line-height: 2;
-    font-size: 50px;
+    font-size: 2rem;
   }
 
   p {
     line-height: 2;
-    font-size: 25px;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 
   &:before {
@@ -199,12 +232,22 @@ position: relative;
 
   h2 {
     line-height: 2;
-    font-size: 50px;
+    font-size: 2rem;
   }
 
   p {
     line-height: 2;
-    font-size: 25px;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
   }
 
   &:before {
