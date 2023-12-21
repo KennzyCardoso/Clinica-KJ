@@ -11,6 +11,7 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
   text-align: center;
+  padding: 20px;
 
   h2, p {
     position: relative;
@@ -21,6 +22,9 @@ export const Container = styled.div`
 
     padding: 10px;
     margin: 0;
+
+    max-width: 100%;
+    margin: 0 auto;
   }
 
   p {
@@ -29,11 +33,16 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     p {
       font-size: 1rem;
+    }
+
+    button {
+      font-size: 14px;
+      margin-top: 10px;
     }
   }
 
@@ -44,7 +53,7 @@ export const Container = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 0;
   }
 
@@ -60,7 +69,7 @@ export const Container = styled.div`
     transition: background 0.3s ease;
     z-index: 2;
 
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 
