@@ -25,6 +25,8 @@ export const Container = styled.div`
 
     max-width: 100%;
     margin: 0 auto;
+
+    line-height: 1.5;
   }
 
   p {
@@ -42,7 +44,7 @@ export const Container = styled.div`
 
     button {
       font-size: 14px;
-      margin-top: 10px;
+      margin-top: 20px;
     }
   }
 
