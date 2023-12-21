@@ -18,6 +18,9 @@ export const Container = styled.div`
     color: white;
     line-height: 2;
     font-size: 2rem;
+
+    padding: 10px;
+    margin: 0;
   }
 
   p {
@@ -41,7 +44,7 @@ export const Container = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.5);
     z-index: 0;
   }
 
@@ -56,10 +59,14 @@ export const Container = styled.div`
     background: transparent;
     transition: background 0.3s ease;
     z-index: 2;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 
   button:hover {
     background: lightgray;
+    transform: scale(1.1);
   }
 
   @media (max-width: 768px) {
