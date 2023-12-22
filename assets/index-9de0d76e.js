@@ -51,6 +51,7 @@ Error generating stack: `+o.message+`
   align-items: center;
   height: 100vh;
   text-align: center;
+  padding: 20px;
 
   h2, p {
     position: relative;
@@ -58,20 +59,18 @@ Error generating stack: `+o.message+`
     color: white;
     line-height: 2;
     font-size: 2rem;
+
+    padding: 10px;
+    margin: 0;
+
+    max-width: 100%;
+    margin: 0 auto;
+
+    line-height: 1.5;
   }
 
   p {
     font-size: 1.5rem;
-  }
-
-  @media (max-width: 768px) {
-    h2 {
-      font-size: 1.5rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
   }
 
   &:before {
@@ -81,7 +80,7 @@ Error generating stack: `+o.message+`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
     z-index: 0;
   }
 
@@ -96,16 +95,29 @@ Error generating stack: `+o.message+`
     background: transparent;
     transition: background 0.3s ease;
     z-index: 2;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   button:hover {
     background: lightgray;
+    transform: scale(1.1);
   }
 
+
   @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
     button {
-      font-size: 14px;
-      margin-top: 10px;
+      font-size: 0.8rem;
+      margin-top: 0.75rem;
     }
   }
 `,Em="/Clinica-KJ/assets/background-7873d438.png",xm="/Clinica-KJ/assets/FisioTerapiaGeral-50ac7651.png",Cm="/Clinica-KJ/assets/ReabilitaçãoMuscular-fbaab8bf.png",_m="/Clinica-KJ/assets/Pilates-08f32205.png";function Pm(){return H.jsxs("div",{children:[H.jsxs(br,{backgroundImage:Em,children:[H.jsxs("h2",{children:["OLÁ! SOU A DRA. JULIANA SILVA, ",H.jsx("br",{})," MUITO PRAZER"]}),H.jsxs("p",{children:["APAIXONADA POR FISIOTERAPIA GERAL",H.jsx("br",{}),"REABILITAÇÃO MUSCULAR",H.jsx("br",{}),"TRATAMENTO DE LESÕES",H.jsx("br",{}),"PILATES"]}),H.jsx("button",{onClick:()=>window.location.href="https://wa.me/559183516196",children:"Fale com a Doutora"})]}),H.jsxs(br,{backgroundImage:xm,children:[H.jsx("h2",{children:"Reabilitação Muscular: Caminho para o Bem-Estar"}),H.jsx("p",{children:"A reabilitação muscular é um processo personalizado e dedicado à restauração da função muscular, visando melhorar a qualidade de vida dos pacientes. A Dra. Juliana é especializada em utilizar abordagens inovadoras, combinando terapias manuais, exercícios específicos e tecnologia avançada para promover a cura e fortalecimento muscular."}),"        ",H.jsx("button",{onClick:()=>window.location.href="https://wa.me/559183516196",children:"Fale com a Doutora"})]}),H.jsxs(br,{backgroundImage:Cm,children:[H.jsx("h2",{children:"Tratamento de Lesões: Recuperação Personalizada para Sua Vitalidade"}),H.jsx("p",{children:"Na nossa clínica, entendemos que as lesões podem impactar profundamente a qualidade de vida. Oferecemos um tratamento dedicado e personalizado, guiando-o passo a passo em direção à recuperação completa. Nosso foco no tratamento de lesões vai além da simples cura; buscamos restaurar sua força, mobilidade e confiança."}),H.jsx("button",{onClick:()=>window.location.href="https://wa.me/559183516196",children:"Fale com a Doutora"})]}),H.jsxs(br,{backgroundImage:_m,children:[H.jsx("h2",{children:"Descubra o Pilates: Transforme Seu Corpo, Fortaleça Sua Mente"}),H.jsx("p",{children:"Bem-vindo à nossa jornada de Pilates, onde a transformação física e mental se entrelaçam para criar uma nova versão mais forte, flexível e equilibrada de você mesmo. O Pilates é mais do que um exercício; é uma abordagem holística que fortalece não apenas seu corpo, mas também sua mente. Descubra como nosso programa de Pilates pode elevar sua qualidade de vida."}),H.jsx("button",{onClick:()=>window.location.href="https://wa.me/559183516196",children:"Fale com a Doutora"})]})]})}Wo.createRoot(document.getElementById("root")).render(H.jsx(kn.StrictMode,{children:H.jsx(Pm,{})}));
