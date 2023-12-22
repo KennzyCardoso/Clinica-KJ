@@ -33,21 +33,6 @@ export const Container = styled.div`
     font-size: 1.5rem;
   }
 
-  @media (max-width: 768px) {
-    h2 {
-      font-size: 1.2rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
-
-    button {
-      font-size: 14px;
-      margin-top: 20px;
-    }
-  }
-
   &:before {
     content: "";
     position: absolute;
@@ -80,10 +65,19 @@ export const Container = styled.div`
     transform: scale(1.1);
   }
 
+
   @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+
     button {
-      font-size: 14px;
-      margin-top: 10px;
+      font-size: 0.8rem;
+      margin-top: 0.75rem;
     }
   }
 `;
