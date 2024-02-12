@@ -10,6 +10,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   text-align: center;
   padding: 20px;
 
@@ -19,13 +20,10 @@ export const Container = styled.div`
     color: white;
     line-height: 2;
     font-size: 2rem;
-
     padding: 10px;
     margin: 0;
-
     max-width: 100%;
     margin: 0 auto;
-
     line-height: 1.5;
   }
 
@@ -55,7 +53,6 @@ export const Container = styled.div`
     background: transparent;
     transition: background 0.3s ease;
     z-index: 2;
-
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -65,8 +62,9 @@ export const Container = styled.div`
     transform: scale(1.1);
   }
 
-
   @media (max-width: 768px) {
+    background-size: contain; /* Corrigindo aqui */
+    
     h2 {
       font-size: 1.5rem;
     }
