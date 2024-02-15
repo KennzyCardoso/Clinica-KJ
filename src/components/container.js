@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   position: relative;
-  background: url(${props => props.backgroundImage}) no-repeat center center;
+  background: url(${props => props.backgroundImage}) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -10,21 +10,22 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   padding: 20px;
+  overflow-x: hidden;
+  margin: 0 auto;
+  box-sizing: border-box;
 
   h2, p {
     position: relative;
     z-index: 1;
     color: white;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 2rem;
     padding: 10px;
     margin: 0;
-    max-width: 100%;
-    margin: 0 auto;
-    line-height: 1.5;
+    max-width: 90vw;
   }
 
   p {
@@ -63,19 +64,17 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    background-size: contain; /* Corrigindo aqui */
-    
     h2 {
       font-size: 1.5rem;
     }
 
     p {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
     }
 
     button {
-      font-size: 0.8rem;
-      margin-top: 0.75rem;
+      font-size: 1rem;
+      margin-top: 15px;
     }
   }
 `;

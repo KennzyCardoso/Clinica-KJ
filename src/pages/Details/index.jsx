@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from '../../components/container';
+import { Container } from '../../components/container'; // Alterado de StyledContainer para Container
 import backgroundImg from '../../Images/background.png';
 import backgroundFisioterapiaGeral from '../../Images/FisioTerapiaGeral.png';
 import backgroundReabilitaçãoMuscular from '../../Images/ReabilitaçãoMuscular.png';
